@@ -31,7 +31,7 @@ public class Demo {
     }
     public static void hold1(int x){
         for (int i= 1 ; i <= x; i++){
-            for (int j=x-i+1; j<= x; j++){
+            for (int j=0; j<= x-i; j++){
                 System.out.print(i);
             }
             System.out.println();
